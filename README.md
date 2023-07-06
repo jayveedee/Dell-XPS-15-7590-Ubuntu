@@ -11,9 +11,19 @@ Following the official Ubuntu documentation: https://ubuntu.com/tutorials/instal
 
 ## Step 2 - Configuring keyboard shortcuts
 
+## Step 3 - Installing essential packages and adding Gnome-Tweaks and extensions
+execute the `installEssentialPackages.sh` script to get the most basic packages, such as nmap, tshark, gnome-tweaks and so on
 
-## Step 3 - Configuring gestures
+Extensions:
+- system-monitor-next
+  - if when installing you get a "meta null" error, try installing these dependencies `sudo apt install gir1.2-gtop-2.0 gir1.2-nm-1.0 gnome-system-monitor`
+- Dash to Dock
+- Workspace Matrix
+
+## Step 4 - Configuring gestures
 Following the guide from https://kaigo.medium.com/mac-like-gestures-on-ubuntu-20-04-dell-xps-15-7ea6e3be7f76 
+
+I created a script to easiliy install the gesture packages via the `installMacLikeGesturePackages.sh`
 
 When opening the Gesture UI, these are my settings
 - xdotool Super+ctrl+Left    -- Swipe right, 3 fingers    -- navigate to the left workspace
@@ -33,3 +43,4 @@ Super+ctrl+Left & Super+ctrl+Right need to be changed in the keyboard shortcuts,
   - https://www.dell.com/community/XPS/XPS-13-9300-Does-fingerprint-reader-work-on-linux/td-p/7514958/page/3
 - Gestures: https://kaigo.medium.com/mac-like-gestures-on-ubuntu-20-04-dell-xps-15-7ea6e3be7f76
 - Setup: https://medium.com/@asad.manji/my-journey-installing-ubuntu-20-04-on-the-dell-xps-15-9500-2020-8ac8560373d1
+- system-monitor-next meta null error: https://github.com/mgalgs/gnome-shell-system-monitor-applet/issues/36
