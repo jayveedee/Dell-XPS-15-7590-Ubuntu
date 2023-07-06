@@ -12,7 +12,7 @@ Following the official Ubuntu documentation: https://ubuntu.com/tutorials/instal
 ## Step 2 - Configuring keyboard shortcuts
 
 ## Step 3 - Installing essential packages and adding Gnome-Tweaks and extensions
-execute the `installEssentialPackages.sh` script to get the most basic packages, such as nmap, tshark, gnome-tweaks and so on
+execute the [`installEssentialPackages.sh`](https://github.com/jayveedee/Dell-XPS-15-7590-Ubuntu/blob/main/installEssentialPackages.sh) script to get the most basic packages, such as nmap, tshark, gnome-tweaks and so on
 
 Extensions:
 - system-monitor-next
@@ -23,7 +23,7 @@ Extensions:
 ## Step 4 - Configuring gestures
 Following the guide from https://kaigo.medium.com/mac-like-gestures-on-ubuntu-20-04-dell-xps-15-7ea6e3be7f76 
 
-I created a script to easiliy install the gesture packages via the `installMacLikeGesturePackages.sh`
+I created a script to easiliy install the gesture packages via the [`installMacLikeGesturePackages.sh`](https://github.com/jayveedee/Dell-XPS-15-7590-Ubuntu/blob/main/installMacLikeGesturePackages.sh)
 
 When opening the Gesture UI, these are my settings
 - xdotool Super+ctrl+Left    -- Swipe right, 3 fingers    -- navigate to the left workspace
