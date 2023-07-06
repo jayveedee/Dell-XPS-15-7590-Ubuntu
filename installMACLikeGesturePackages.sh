@@ -1,7 +1,7 @@
 #/!bin/sh
 
 # install dependencies
-sudo apt install python3 python3-gi meson xdotool libinput-tools gettext
+sudo apt install python3 python3-gi meson xdotool libinput-tools gettext gnome-tweaks nome-shell-extensions
 
 sudo gpasswd -a $USER input
 
