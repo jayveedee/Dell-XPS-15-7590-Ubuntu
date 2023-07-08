@@ -3,7 +3,6 @@ Tutorial for installing ubuntu with my personal settings
 
 ## Step 0 - Configuring the UEFI (Specific to this model)
 - Under 'System Configuration', change the SATA Mode from the default "RAID" to "AHCI". This will allow Linux to detect the NVMe SSD.
-- Under 'Secure Boot', disable Secure Boot to allow Linux to boot.
 - Under 'POST Behaviour', change "Fastboot" to "Thorough". This prevents intermittent boot failures.
 
 ## Step 1 - Download and install Ubuntu
