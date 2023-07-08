@@ -16,14 +16,8 @@ Following the official Ubuntu documentation: https://ubuntu.com/tutorials/instal
 - Set Super+d to hide all windows
 - Set Super+shift+r for screen record
 
-## Step 3 - Installing essential packages and adding Gnome-Tweaks and extensions
+## Step 3 - Installing essential packages and adding Gnome-Tweaks
 execute the [`installEssentialPackages.sh`](https://github.com/jayveedee/Dell-XPS-15-7590-Ubuntu/blob/main/installEssentialPackages.sh) script to get the most basic packages, such as nmap, tshark, gnome-tweaks and so on
-
-Extensions:
-- system-monitor-next
-  - if when installing you get a "meta null" error, try installing these dependencies `sudo apt install gir1.2-gtop-2.0 gir1.2-nm-1.0 gnome-system-monitor`
-- Dash to Dock
-- Workspace Matrix
 
 ## Step 4 - Configuring gestures
 Following the guide from https://kaigo.medium.com/mac-like-gestures-on-ubuntu-20-04-dell-xps-15-7ea6e3be7f76 
@@ -40,10 +34,11 @@ When opening the Gesture UI, these are my settings
 
 Super+ctrl+Left & Super+ctrl+Right need to be changed in the keyboard shortcuts, otherwise it will be the default
 
-## Step 5 - Plugins
+## Step 5 - Extensions
 - Dash to Panel (Combine task bar with top panel)
 - ArcMenu (Windows like menu)
 - system-monitor-next (for some fancy graphs of system resources used)
+  - if when installing you get a "meta null" error, try installing these dependencies `sudo apt install gir1.2-gtop-2.0 gir1.2-nm-1.0 gnome-system-monitor`
 - Vitals (for looking at resources as well, a bit more indepth)
 - WinTile (optional, for snapping windows to corners like windows)
 - Clipboard Indicator (save clipboard for awhile or ease of access)
