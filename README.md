@@ -45,7 +45,7 @@ Super+ctrl+Left & Super+ctrl+Right need to be changed in the keyboard shortcuts,
 
 # References
 - Ubuntu installation/documentation: https://ubuntu.com/
-- Ubuntu configuration for Dell CPS 15 7590 model: https://wiki.archlinux.org/title/Dell_XPS_15_(7590)
+- Ubuntu configuration for Dell XPS 15 7590 model: https://wiki.archlinux.org/title/Dell_XPS_15_(7590)
 - Goodix fingerprint reader:
   - https://askubuntu.com/questions/1362986/how-do-i-get-the-fingerprint-reader-to-work-in-ubuntu-21-04-xps-15
   - https://www.dell.com/community/XPS/XPS-13-9300-Does-fingerprint-reader-work-on-linux/td-p/7514958/page/3
