@@ -10,6 +10,11 @@ Tutorial for installing ubuntu with my personal settings
 Following the official Ubuntu documentation: https://ubuntu.com/tutorials/install-ubuntu-desktop
 
 ## Step 2 - Configuring keyboard shortcuts
+- Set Super+Tab = open terminal
+- Set Super+½ to open run menu
+- Set Super+shift+s to be screenshot
+- Set Super+d to hide all windows
+- Set Super+shift+r for screen record
 
 ## Step 3 - Installing essential packages and adding Gnome-Tweaks and extensions
 execute the [`installEssentialPackages.sh`](https://github.com/jayveedee/Dell-XPS-15-7590-Ubuntu/blob/main/installEssentialPackages.sh) script to get the most basic packages, such as nmap, tshark, gnome-tweaks and so on
@@ -34,6 +39,14 @@ When opening the Gesture UI, these are my settings
 - xdotool Super+Right        -- Swipe right, 4 fingers    -- snap window to the right side of the screen
 
 Super+ctrl+Left & Super+ctrl+Right need to be changed in the keyboard shortcuts, otherwise it will be the default
+
+## Step 5 - Plugins
+- Dash to Panel (Combine task bar with top panel)
+- ArcMenu (Windows like menu)
+- system-monitor-next (for some fancy graphs of system resources used)
+- Vitals (for looking at resources as well, a bit more indepth)
+- WinTile (optional, for snapping windows to corners like windows)
+- Clipboard Indicator (save clipboard for awhile or ease of access)
 
 # References
 - Ubuntu installation/documentation: https://ubuntu.com/
