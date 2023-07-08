@@ -41,6 +41,7 @@ Super+ctrl+Left & Super+ctrl+Right need to be changed in the keyboard shortcuts,
 - Vitals (for looking at resources as well, a bit more indepth)
 - WinTile (optional, for snapping windows to corners like windows)
 - Clipboard Indicator (save clipboard for awhile or ease of access)
+- Burn my windows (some good fun! :P)
 
 # References
 - Ubuntu installation/documentation: https://ubuntu.com/
